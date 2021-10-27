@@ -3,5 +3,5 @@
 echo "Hello $1"
 time=$(date)
 printenv
-echo "Data- $2"
+cat $GITHUB_EVENT_PATH
 echo "::set-output name=time::$time"
