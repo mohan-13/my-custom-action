@@ -3,5 +3,5 @@
 echo "Hello $1"
 time=$(date)
 printenv
-echo "Data- ${{ github.event.issue.assignees }}"
+echo "Data- $2"
 echo "::set-output name=time::$time"
