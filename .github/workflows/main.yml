@@ -10,10 +10,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: mohan-13/my-custom-action@v1.1
+        uses: mohan-13/my-custom-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
-          issue-object: "${{ github.event.issue }}"
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
