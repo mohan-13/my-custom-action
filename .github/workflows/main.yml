@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: mohan-13/my-custom-action@v1
+        uses: mohan-13/my-custom-action@v1.1
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
