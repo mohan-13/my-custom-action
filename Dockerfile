@@ -2,6 +2,6 @@ FROM python:3.8-slim
 
 RUN pip install requests
 
-COPY main.py main.py
+COPY main.py /main.py
 
-CMD ["python", "main.py"]
+CMD ["python", "/main.py"]
