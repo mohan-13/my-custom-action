@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: mohan-13/my-custom-action@v1.7
+        uses: mohan-13/my-custom-action@v1.8
         with:
           discord-webhook-url: ${{ secrets.DISCORD_WEBHOOK }}
       # Use the output from the `hello` step
