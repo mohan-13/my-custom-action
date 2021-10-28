@@ -4,4 +4,5 @@ RUN pip install requests
 
 COPY main.py /main.py
 
-CMD ["python", "/main.py"]
+ENTRYPOINT ["python"]
+CMD ["/main.py"]
